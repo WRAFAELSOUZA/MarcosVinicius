@@ -5,7 +5,7 @@ import java.util.Locale; // veja que para se usar o locale se deve ter isso
 public class Marcola {
 
 	public static void main(String[] args) {
-		
+		/*
 		int y = 32;
 		double x = 10.35784;
 
@@ -20,6 +20,7 @@ public class Marcola {
 		 o (int e o double) são o tipo da variavel onde o "y e x" seja o nome dela com o valor após o igual
 		 o int siguinifica valor inteiro.  ja o double significa valor com casas decimais 
 		*/
+		/*
 		System.out.println("resultado = " + x + " metros");
 		// para juntar elementos se faz isso 
 		System.out.printf("resultado = %.2f metros%n", x);
@@ -32,7 +33,9 @@ public class Marcola {
 		
 		System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
 		
-		// perceba que para ter os elementos juntos foi precisso isso 
+		 perceba que para ter os elementos juntos foi precisso isso 
+		*/
+		
 		
 		// exercicio 
 		
@@ -41,15 +44,23 @@ public class Marcola {
 		
 		int age = 30;
 		int code = 5290;
-		char gender = 'f';
+		char gender = 'F';
 		
 		double prince1 = 2100.0;
 		double prince2 = 650.50;
 		double measure = 53.234567;
 		
-		System.out.println("Products:");
+		System.out.println("Products:");{
 		System.out.printf("%s whitch price is $ %.2f%n", product1, prince1);
-		System.out.printf(", args)
+		} {
+		System.out.printf("%s, white price is $ %.2f%n", product2, prince2);
+		} {
+		System.out.printf("Recorde: %d years old, code %d and gender: %s %n", age, code, gender);
+		} {
+		System.out.printf("Measue with eight decimal places: %.8f%n", measure);
+		}
+		
+		
 		
 		
 		
