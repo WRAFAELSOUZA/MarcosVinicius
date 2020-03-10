@@ -49,6 +49,7 @@ public class Marcola {
 		
 		System.out.println("Products:");
 		System.out.printf("%s whitch price is $ %.2f%n", product1, prince1);
+		System.out.printf(", args)
 		
 		
 		
