@@ -107,15 +107,21 @@ public class Marcola {
 		System.out.println(resultado);
 		*/
 		// se vc colocar (sysou Ctrl + espaco) ele ira apresentar o system completo
-		/*Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
-       double x;
-       x = sc.nextDouble();
+      int x, y, v;
+      System.out.println("digite os valores");
+       x = sc.nextInt();
        System.out.println("voce digitou: " + x);
+       y = sc.nextInt();
+       System.out.println("voce digitou: " + y);
+       v = x * y;
+       System.out.println("o valor foi: " + v);
+      
 	
        
 		sc.close();
-		*/
+		
 		// só para por em pratica oque aprendi posição do movel
 		/*
 		int s0, v, t;
@@ -127,13 +133,14 @@ public class Marcola {
 		 System.out.printf("a pocicao final do movel apos 5 segundos sera %d metros", sm);
 		*/
 		// velocidade media 
+		/*
 		 int Δt, Δs, V;
 		
 		Δs = 10;
 		Δt = 2;
 		V = (Δs / Δt);
 		System.out.println("a velocidade media é " + V + " metros por segundos");
-	
+	    */
 		
 	}
 
