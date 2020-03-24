@@ -109,14 +109,14 @@ public class Marcola {
 		// se vc colocar (sysou Ctrl + espaco) ele ira apresentar o system completo
 		Scanner sc = new Scanner(System.in);
 		
-      int x, y, v;
+      int Δs, Δt, V;
       System.out.println("digite os valores");
-       x = sc.nextInt();
-       System.out.println("voce digitou: " + x);
-       y = sc.nextInt();
-       System.out.println("voce digitou: " + y);
-       v = x * y;
-       System.out.println("o valor foi: " + v);
+       Δs = sc.nextInt();
+       System.out.println("voce digitou o valor do delta s: " + Δs);
+       Δt = sc.nextInt();
+       System.out.println("voce digitou o valor do delta t: " + Δt);
+       V = Δs / Δt;
+       System.out.println("a velocidade é : " + V + " metros por segundos");
       
 	
        
